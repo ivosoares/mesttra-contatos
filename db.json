@@ -1,0 +1,22 @@
+{
+  "contatos": [
+    {
+      "id": "0",
+      "nome": "Maria Silva ",
+      "cpf": "054684198",
+      "idade": "20"
+    },
+    {
+      "id": "1",
+      "nome": "Joao Silva",
+      "cpf": "1684687",
+      "idade": "30"
+    },
+    {
+      "id": "53b2",
+      "nome": "Carlos Santos ",
+      "cpf": "196846688",
+      "idade": "40"
+    }
+  ]
+}
