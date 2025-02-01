@@ -1,7 +1,7 @@
 const resultHtml = document.getElementById('result');
 async function getContatos () {
     const apiUrl = 'http://localhost:3000/contatos'
-    const response = await fetch(apiUrl);
+    const response = await fetch(apiUrl) //GET;
     const data = await response.json();
 
     data.forEach(usuario => {
@@ -11,6 +11,7 @@ async function getContatos () {
                 <td>${usuario.cpf}</td>    
                 <td>${usuario.idade}</td>    
                 <td><button class="w3-button w3-red" onclick="deleteUser('${usuario.id}')">excluir</button></td>    
+                <td><a href="./edicao.html?id=${usuario.id}" class="w3-button w3-green">Editar</a></td>    
             </tr>
         `)
     });

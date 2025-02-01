@@ -1,10 +1,22 @@
 {
   "contatos": [
     {
-      "id": "e6b7",
-      "nome": "joao",
-      "cpf": "1968498",
-      "idade": "10"
+      "nome": "joao souza ",
+      "cpf": "4987987",
+      "idade": "28",
+      "id": "e6b7"
+    },
+    {
+      "nome": "Adevalter Silva",
+      "cpf": "16849874",
+      "idade": "20",
+      "id": "dfea"
+    },
+    {
+      "nome": "Mariana Oliveira",
+      "cpf": "169849684",
+      "idade": "25",
+      "id": "daf4"
     }
   ]
 }

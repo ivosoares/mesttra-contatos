@@ -12,8 +12,6 @@ const sendUser = async (event) => {
         idade
     }
 
-    console.log(usuario);
-
     const apiUrl = 'http://localhost:3000/contatos';
 
     const request = new Request (apiUrl, {
@@ -28,5 +26,5 @@ const sendUser = async (event) => {
     const data = await response.json();
 
     alert(`Usuario ${data.nome} cadastrado com sucesso`);
-    window.location.href = 'file:///C:/Users/Ivo/Documents/mesttra-contatos/index.html';
+    window.location.href = '/index.html';
 }
